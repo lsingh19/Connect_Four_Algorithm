@@ -9,6 +9,16 @@ _**Mark**_: 74.0 / 75.0
 - Very good report! I like that you point out that there are places to improve upon.
 - Correct naming conventions used
 
+## Marking Criteria
+1. 30 marks for correctly implementing minimax or a derivative of minimax, including an evaluation function that works as intended.
+2. 10 marks for correctly implementing the perft function.
+3. 10 marks for correctly passing strings back and forth between the engine and the coordinator.
+4. 10 marks for clear comments
+5. 10 marks for a clear report. A description of the evaluation function should be included in the report.
+6. 5 marks for correct ﬁle and engine naming conventions.
+7. -5 marks for each time the marker must modify the submission to make it work. The ﬁrst error message on compile will be addressed each time. This will only be done to address compile problems, not run time problems. Modiﬁcations will only be performed if they are extremely easy and quick to do so.
+
+
 ## Assignment Specification
 Connect four is a two player game. The objective of the game is to connect four markers in sequence, in either a row, column or diagonal, while preventing your opponent from doing the same. The game is won when a player makes four markers in a sequence. The game is played by placing a marker in one of seven columns, and the marker is placed on the lowest row in that column. There are six rows in each column to make a play ﬁeld of 7×6. Players take turns placing markers.
 ### Requirements 
